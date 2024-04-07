@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.winskyan",
+    "module": "Agora-AIGCService",
+    "version": "1.2.0-alpha-24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Agora-AIGCService-1.2.0-alpha-24.aar",
+          "url": "Agora-AIGCService-1.2.0-alpha-24.aar",
+          "size": 1355818,
+          "sha512": "7c1e7153d467c9e30b5de44497f35d575c7a34ac58901ac2a6342b47f55d102fc2b442521aed76fd157e69dc56aeb3bfc5ef4ff1a94b7a19a265c3fd0a97b47b",
+          "sha256": "d4b95d54aa221dfcd1382314d88ac4abd1a9e83e8d9db74ff8bb21eb39932ea3",
+          "sha1": "ae42e2e75e54fb9d46684b41a38f574e836a461f",
+          "md5": "2ebc31484048808aa3b73940c7c02ac0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.microsoft.cognitiveservices.speech",
+          "module": "client-sdk",
+          "version": {
+            "requires": "1.33.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.83"
+          }
+        },
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.11.3"
+          }
+        },
+        {
+          "group": "io.github.winskyan",
+          "module": "Agora-LoggingService",
+          "version": {
+            "requires": "1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Agora-AIGCService-1.2.0-alpha-24.aar",
+          "url": "Agora-AIGCService-1.2.0-alpha-24.aar",
+          "size": 1355818,
+          "sha512": "7c1e7153d467c9e30b5de44497f35d575c7a34ac58901ac2a6342b47f55d102fc2b442521aed76fd157e69dc56aeb3bfc5ef4ff1a94b7a19a265c3fd0a97b47b",
+          "sha256": "d4b95d54aa221dfcd1382314d88ac4abd1a9e83e8d9db74ff8bb21eb39932ea3",
+          "sha1": "ae42e2e75e54fb9d46684b41a38f574e836a461f",
+          "md5": "2ebc31484048808aa3b73940c7c02ac0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Agora-AIGCService-1.2.0-alpha-24-javadoc.jar",
+          "url": "Agora-AIGCService-1.2.0-alpha-24-javadoc.jar",
+          "size": 905231,
+          "sha512": "25172761bf1e69f324d5d0b2ce2c92e54b92f42a650b06eabf544aee93a4bb3b4e35640b1d6a0223795bdd29090b8dad64c86358c3abae2bdd7c5605dc6cbe32",
+          "sha256": "b706e522dba2ebf55784da3ca29f58cd12d8a87341c4bced600c2d100ac51af9",
+          "sha1": "2ac3c8349317b17fb292e0b9c0aec11a0053a410",
+          "md5": "d6b9fb24663bd1511b2fb481291b16d9"
+        }
+      ]
+    }
+  ]
+}

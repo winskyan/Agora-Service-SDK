@@ -1,0 +1,645 @@
+# compiler: R8
+# compiler_version: 8.2.42
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: c480723
+# pg_map_hash: SHA-256 c4807235235d0d3a47276fc380160f14ba3c6926e71878f4e90f6a02ee70b5c0
+io.agora.transcription_widget.BuildConfig -> io.agora.transcription_widget.BuildConfig:
+# {"id":"sourceFile","fileName":"BuildConfig.java"}
+    1:1:void <init>():6:6 -> <init>
+io.agora.transcription_widget.TranscriptSubtitleView -> io.agora.transcription_widget.TranscriptSubtitleView:
+# {"id":"sourceFile","fileName":"TranscriptSubtitleView.kt"}
+    1:1:void <init>(android.content.Context):0:0 -> <init>
+    2:2:void <init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
+    3:3:void <init>(android.content.Context,android.util.AttributeSet,int,int,kotlin.jvm.internal.DefaultConstructorMarker):18:18 -> <init>
+    4:52:void <init>(android.content.Context,android.util.AttributeSet,int):22:70 -> <init>
+    53:60:void <init>(android.content.Context,android.util.AttributeSet,int):69:76 -> <init>
+    61:67:void <init>(android.content.Context,android.util.AttributeSet,int):75:81 -> <init>
+    68:68:void <init>(android.content.Context,android.util.AttributeSet,int):80:80 -> <init>
+    69:78:void <init>(android.content.Context,android.util.AttributeSet,int):79:88 -> <init>
+    79:87:void <init>(android.content.Context,android.util.AttributeSet,int):86:94 -> <init>
+    88:96:void <init>(android.content.Context,android.util.AttributeSet,int):92:100 -> <init>
+    97:104:void <init>(android.content.Context,android.util.AttributeSet,int):99:106 -> <init>
+    105:117:void <init>(android.content.Context,android.util.AttributeSet,int):104:116 -> <init>
+    118:126:void <init>(android.content.Context,android.util.AttributeSet,int):114:122 -> <init>
+    127:133:void <init>(android.content.Context,android.util.AttributeSet,int):120:126 -> <init>
+    134:134:void <init>(android.content.Context,android.util.AttributeSet,int):126:126 -> <init>
+    1:3:void clear():222:224 -> clear
+    1:2:java.lang.String getAllTranscriptText():204:205 -> getAllTranscriptText
+    1:2:java.lang.String getAllTranslateText():213:214 -> getAllTranslateText
+    1:1:int getFinalTextColor():31:31 -> getFinalTextColor
+    1:1:int getNonFinalTextColor():38:38 -> getNonFinalTextColor
+    1:1:boolean getShowTranscriptContent():60:60 -> getShowTranscriptContent
+    1:1:int getTextAreaBackgroundColor():53:53 -> getTextAreaBackgroundColor
+    1:1:float getTextSize():45:45 -> getTextSize
+    1:9:void invalidate(io.agora.transcription_widget.internal.model.ListChangeItem):160:168 -> invalidate
+    1:19:void invalidate$lambda$2(io.agora.transcription_widget.internal.model.ListChangeItem,io.agora.transcription_widget.TranscriptSubtitleView):169:187 -> invalidate$lambda$2
+    20:20:void invalidate$lambda$2(io.agora.transcription_widget.internal.model.ListChangeItem,io.agora.transcription_widget.TranscriptSubtitleView):183:183 -> invalidate$lambda$2
+    21:21:void invalidate$lambda$2(io.agora.transcription_widget.internal.model.ListChangeItem,io.agora.transcription_widget.TranscriptSubtitleView):179:179 -> invalidate$lambda$2
+    22:22:void invalidate$lambda$2(io.agora.transcription_widget.internal.model.ListChangeItem,io.agora.transcription_widget.TranscriptSubtitleView):175:175 -> invalidate$lambda$2
+    23:43:void invalidate$lambda$2(io.agora.transcription_widget.internal.model.ListChangeItem,io.agora.transcription_widget.TranscriptSubtitleView):171:191 -> invalidate$lambda$2
+    1:3:void onAttachedToWindow():133:135 -> onAttachedToWindow
+    1:4:void onDetachedFromWindow():139:142 -> onDetachedFromWindow
+    1:6:void pushMessageData(byte[],int):151:156 -> pushMessageData
+    1:2:void setFinalTextColor(int):33:34 -> setFinalTextColor
+    1:2:void setNonFinalTextColor(int):40:41 -> setNonFinalTextColor
+    1:2:void setShowTranscriptContent(boolean):62:63 -> setShowTranscriptContent
+    1:2:void setTextAreaBackgroundColor(int):55:56 -> setTextAreaBackgroundColor
+    1:3:void setTextSize(float):47:49 -> setTextSize
+io.agora.transcription_widget.internal.TranscriptSubtitleMachine -> io.agora.transcription_widget.internal.TranscriptSubtitleMachine:
+# {"id":"sourceFile","fileName":"TranscriptSubtitleMachine.kt"}
+    1:1:void <clinit>():12:12 -> <clinit>
+    1:1:void <init>():11:11 -> <init>
+    1:1:void clear():146:146 -> clear
+    1:1:java.lang.String getAllTranscriptText():125:125 -> getAllTranscriptText
+    1:31:java.lang.String getAllTranslateText():130:160 -> getAllTranslateText
+    32:61:java.lang.String getAllTranslateText():132:161 -> getAllTranslateText
+    62:71:java.lang.String getAllTranslateText():133:142 -> getAllTranslateText
+    1:1:java.util.List getTranscriptionDataList():121:121 -> getTranscriptionDataList
+    1:135:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):15:149 -> handleMessageData
+    136:156:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):42:62 -> handleMessageData
+    157:169:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):57:69 -> handleMessageData
+    170:179:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):64:73 -> handleMessageData
+    180:259:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):72:151 -> handleMessageData
+    260:330:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):83:153 -> handleMessageData
+    331:332:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):83:83 -> handleMessageData
+    333:404:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):84:155 -> handleMessageData
+    405:415:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):88:98 -> handleMessageData
+    416:416:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):95:95 -> handleMessageData
+    417:480:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):94:157 -> handleMessageData
+    481:495:io.agora.transcription_widget.internal.model.ListChangeItem handleMessageData(byte[],int):103:117 -> handleMessageData
+io.agora.transcription_widget.internal.TranscriptSubtitleMachine$getAllTranscriptText$1 -> io.agora.transcription_widget.internal.TranscriptSubtitleMachine$getAllTranscriptText$1:
+# {"id":"sourceFile","fileName":"TranscriptSubtitleMachine.kt"}
+    1:1:java.lang.CharSequence invoke(io.agora.transcription_widget.internal.model.TranscriptionData):125:125 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object):125:125 -> invoke
+io.agora.transcription_widget.internal.TranscriptSubtitleMachine$getAllTranslateText$2 -> io.agora.transcription_widget.internal.TranscriptSubtitleMachine$getAllTranslateText$2:
+# {"id":"sourceFile","fileName":"TranscriptSubtitleMachine.kt"}
+    1:1:java.lang.CharSequence invoke(java.util.Map$Entry):142:142 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object):142:142 -> invoke
+io.agora.transcription_widget.internal.TranscriptSubtitleMachine$handleMessageData$lambda$5$$inlined$sortBy$1 -> io.agora.transcription_widget.internal.TranscriptSubtitleMachine$handleMessageData$lambda$5$$inlined$sortBy$1:
+# {"id":"sourceFile","fileName":"Comparisons.kt"}
+    1:1:int compare(java.lang.Object,java.lang.Object):102:102 -> compare
+    2:2:io.agora.transcription_widget.internal.model.ListChangeItem io.agora.transcription_widget.internal.TranscriptSubtitleMachine.handleMessageData(byte[],int):101:101 -> compare
+    2:2:int compare(java.lang.Object,java.lang.Object):321 -> compare
+    3:3:int compare(java.lang.Object,java.lang.Object):102:102 -> compare
+    4:4:io.agora.transcription_widget.internal.model.ListChangeItem io.agora.transcription_widget.internal.TranscriptSubtitleMachine.handleMessageData(byte[],int):101:101 -> compare
+    4:4:int compare(java.lang.Object,java.lang.Object):321 -> compare
+    5:5:int compare(java.lang.Object,java.lang.Object):102:102 -> compare
+io.agora.transcription_widget.internal.adapter.SubtitleAdapter -> io.agora.transcription_widget.internal.adapter.SubtitleAdapter:
+# {"id":"sourceFile","fileName":"SubtitleAdapter.kt"}
+    1:28:void <init>():16:43 -> <init>
+    1:1:int getFinalTextColor():19:19 -> getFinalTextColor
+    1:1:int getItemCount():77:77 -> getItemCount
+    1:1:int getNonFinalTextColor():25:25 -> getNonFinalTextColor
+    1:1:boolean getShowTranscriptContent():43:43 -> getShowTranscriptContent
+    1:1:int getTextAreaBackgroundColor():37:37 -> getTextAreaBackgroundColor
+    1:1:float getTextSize():31:31 -> getTextSize
+    1:1:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):16:16 -> onBindViewHolder
+    2:2:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):16:16 -> onBindViewHolder
+    3:8:void onBindViewHolder(io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder,int):57:62 -> onBindViewHolder
+    9:9:void onBindViewHolder(io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder,int):56:56 -> onBindViewHolder
+    10:15:void onBindViewHolder(io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder,int,java.util.List):68:73 -> onBindViewHolder
+    16:16:void onBindViewHolder(io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder,int,java.util.List):67:67 -> onBindViewHolder
+    1:1:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):16:16 -> onCreateViewHolder
+    2:4:io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder onCreateViewHolder(android.view.ViewGroup,int):50:52 -> onCreateViewHolder
+    1:2:void setFinalTextColor(int):21:22 -> setFinalTextColor
+    1:2:void setItems(java.util.List):80:81 -> setItems
+    1:2:void setNonFinalTextColor(int):27:28 -> setNonFinalTextColor
+    1:2:void setShowTranscriptContent(boolean):45:46 -> setShowTranscriptContent
+    1:2:void setTextAreaBackgroundColor(int):39:40 -> setTextAreaBackgroundColor
+    1:2:void setTextSize(float):33:34 -> setTextSize
+io.agora.transcription_widget.internal.adapter.SubtitleAdapter$MyItemDecoration -> io.agora.transcription_widget.internal.adapter.SubtitleAdapter$MyItemDecoration:
+# {"id":"sourceFile","fileName":"SubtitleAdapter.kt"}
+    1:1:void <init>(int):168:168 -> <init>
+    1:8:void getItemOffsets(android.graphics.Rect,android.view.View,androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$State):176:183 -> getItemOffsets
+io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder -> io.agora.transcription_widget.internal.adapter.SubtitleAdapter$SubtitleViewHolder:
+# {"id":"sourceFile","fileName":"SubtitleAdapter.kt"}
+    1:3:void <init>(android.view.View):84:86 -> <init>
+    1:41:void bind(io.agora.transcription_widget.internal.model.TranscriptionData,int,int,float,int,boolean):97:137 -> bind
+    42:51:void bind(io.agora.transcription_widget.internal.model.TranscriptionData,int,int,float,int,boolean):137:146 -> bind
+    52:57:void bind(io.agora.transcription_widget.internal.model.TranscriptionData,int,int,float,int,boolean):144:149 -> bind
+    58:65:void bind(io.agora.transcription_widget.internal.model.TranscriptionData,int,int,float,int,boolean):147:154 -> bind
+    66:77:void bind(io.agora.transcription_widget.internal.model.TranscriptionData,int,int,float,int,boolean):151:162 -> bind
+io.agora.transcription_widget.internal.constants.Constants -> io.agora.transcription_widget.internal.constants.Constants:
+# {"id":"sourceFile","fileName":"Constants.kt"}
+    1:1:void <init>():3:3 -> <init>
+io.agora.transcription_widget.internal.model.ListChangeItem -> io.agora.transcription_widget.internal.model.ListChangeItem:
+# {"id":"sourceFile","fileName":"ListChangeItem.kt"}
+    1:1:void <init>(int,int):3:3 -> <init>
+    1:1:int getPosition():3:3 -> getPosition
+    1:1:int getType():3:3 -> getType
+io.agora.transcription_widget.internal.model.ListChangeItem$Companion -> io.agora.transcription_widget.internal.model.ListChangeItem$Companion:
+# {"id":"sourceFile","fileName":"ListChangeItem.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():4:4 -> <init>
+io.agora.transcription_widget.internal.model.TranscriptText -> io.agora.transcription_widget.internal.model.TranscriptText:
+# {"id":"sourceFile","fileName":"TranscriptText.kt"}
+    1:6:void <init>(java.lang.String,boolean,int,int,double):3:8 -> <init>
+    1:1:double getConfidence():8:8 -> getConfidence
+    1:1:int getDurationMs():6:6 -> getDurationMs
+    1:1:int getStartMs():7:7 -> getStartMs
+    1:1:java.lang.String getText():4:4 -> getText
+    1:1:boolean isFinal():5:5 -> isFinal
+    1:1:void setConfidence(double):8:8 -> setConfidence
+    1:1:void setDurationMs(int):6:6 -> setDurationMs
+    1:1:void setFinal(boolean):5:5 -> setFinal
+    1:1:void setStartMs(int):7:7 -> setStartMs
+    1:1:void setText(java.lang.String):4:4 -> setText
+io.agora.transcription_widget.internal.model.TranscriptionData -> io.agora.transcription_widget.internal.model.TranscriptionData:
+# {"id":"sourceFile","fileName":"TranscriptionData.kt"}
+    1:6:void <init>(int,long,long,io.agora.transcription_widget.internal.model.TranscriptText,java.util.List):3:8 -> <init>
+    1:1:long getEndTs():6:6 -> getEndTs
+    1:1:long getStartTs():5:5 -> getStartTs
+    1:1:io.agora.transcription_widget.internal.model.TranscriptText getTranscriptText():7:7 -> getTranscriptText
+    1:1:java.util.List getTranslateTextList():8:8 -> getTranslateTextList
+    1:1:int getUid():4:4 -> getUid
+    1:1:void setEndTs(long):6:6 -> setEndTs
+    1:1:void setTranscriptText(io.agora.transcription_widget.internal.model.TranscriptText):7:7 -> setTranscriptText
+    1:1:void setTranslateTextList(java.util.List):8:8 -> setTranslateTextList
+io.agora.transcription_widget.internal.model.TranslateText -> io.agora.transcription_widget.internal.model.TranslateText:
+# {"id":"sourceFile","fileName":"TranslateText.kt"}
+    1:4:void <init>(java.lang.String,boolean,java.lang.String):3:6 -> <init>
+    1:1:java.lang.String getLang():6:6 -> getLang
+    1:1:java.lang.String getText():4:4 -> getText
+    1:1:boolean isFinal():5:5 -> isFinal
+    1:1:void setFinal(boolean):5:5 -> setFinal
+    1:1:void setText(java.lang.String):4:4 -> setText
+io.agora.transcription_widget.internal.utils.LogUtils -> io.agora.transcription_widget.internal.utils.LogUtils:
+# {"id":"sourceFile","fileName":"LogUtils.kt"}
+    1:1:void <clinit>():12:12 -> <clinit>
+    1:1:void <init>():11:11 -> <init>
+    1:1:void d(java.lang.String):60:60 -> d
+    2:2:void d(java.lang.String,java.lang.String):64:64 -> d
+    1:4:void destroy():53:56 -> destroy
+    1:1:void e(java.lang.String):68:68 -> e
+    2:2:void e(java.lang.String,java.lang.String):72:72 -> e
+    1:13:void enableLog(android.content.Context,boolean,boolean,java.lang.String):20:32 -> enableLog
+    14:20:void enableLog(android.content.Context,boolean,boolean,java.lang.String):31:37 -> enableLog
+    21:21:void enableLog(android.content.Context,boolean,boolean,java.lang.String):35:35 -> enableLog
+    22:36:void enableLog(android.content.Context,boolean,boolean,java.lang.String):34:48 -> enableLog
+    1:1:void i(java.lang.String):76:76 -> i
+    2:2:void i(java.lang.String,java.lang.String):80:80 -> i
+io.agora.transcription_widget.internal.utils.WrapContentLinearLayoutManager -> io.agora.transcription_widget.internal.utils.WrapContentLinearLayoutManager:
+# {"id":"sourceFile","fileName":"WrapContentLinearLayoutManager.kt"}
+    1:1:void <init>(android.content.Context):7:7 -> <init>
+    1:3:void onLayoutChildren(androidx.recyclerview.widget.RecyclerView$Recycler,androidx.recyclerview.widget.RecyclerView$State):10:12 -> onLayoutChildren
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:1:void <init>():9:9 -> <init>
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$1 -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$1:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:1:void <clinit>():1599:1599 -> <clinit>
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:5:void <clinit>():1667:1671 -> <clinit>
+    1:5:void <init>():163:167 -> <init>
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text access$000():158:158 -> access$000
+    1:1:void access$100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$100
+    1:1:void access$1000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$1000
+    1:1:void access$1100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,long):158:158 -> access$1100
+    1:1:void access$1200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$1200
+    1:1:void access$1300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$1300
+    1:1:void access$1400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$1400
+    1:1:void access$1500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$1500
+    1:1:void access$1600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$1600
+    1:1:void access$1700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$1700
+    1:1:void access$1800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$1800
+    1:1:void access$1900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):158:158 -> access$1900
+    1:1:void access$200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$200
+    1:1:void access$2000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):158:158 -> access$2000
+    1:1:void access$2100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):158:158 -> access$2100
+    1:1:void access$2200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,java.lang.Iterable):158:158 -> access$2200
+    1:1:void access$2300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$2300
+    1:1:void access$2400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$2400
+    1:1:void access$2500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,boolean):158:158 -> access$2500
+    1:1:void access$2600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$2600
+    1:1:void access$2700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$2700
+    1:1:void access$2800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$2800
+    1:1:void access$2900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,java.lang.String):158:158 -> access$2900
+    1:1:void access$300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$300
+    1:1:void access$3000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$3000
+    1:1:void access$3100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,com.google.protobuf.ByteString):158:158 -> access$3100
+    1:1:void access$3200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):158:158 -> access$3200
+    1:1:void access$3300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):158:158 -> access$3300
+    1:1:void access$3400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):158:158 -> access$3400
+    1:1:void access$3500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,java.lang.Iterable):158:158 -> access$3500
+    1:1:void access$3600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$3600
+    1:1:void access$3700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$3700
+    1:1:void access$3800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,java.lang.String):158:158 -> access$3800
+    1:1:void access$3900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$3900
+    1:1:void access$400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$400
+    1:1:void access$4000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,com.google.protobuf.ByteString):158:158 -> access$4000
+    1:1:void access$4100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,long):158:158 -> access$4100
+    1:1:void access$4200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$4200
+    1:1:void access$4300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$4300
+    1:1:void access$4400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$4400
+    1:1:void access$500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$500
+    1:1:void access$600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$600
+    1:1:void access$700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,long):158:158 -> access$700
+    1:1:void access$800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):158:158 -> access$800
+    1:1:void access$900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text,int):158:158 -> access$900
+    1:2:void addAllTrans(java.lang.Iterable):692:693 -> addAllTrans
+    1:2:void addAllWords(java.lang.Iterable):479:480 -> addAllWords
+    1:3:void addTrans(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):674:676 -> addTrans
+    4:6:void addTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):683:685 -> addTrans
+    1:3:void addWords(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):461:463 -> addWords
+    4:6:void addWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):470:472 -> addWords
+    1:1:void clearCulture():744:744 -> clearCulture
+    1:1:void clearDataType():599:599 -> clearDataType
+    1:1:void clearDurationMs():546:546 -> clearDurationMs
+    1:1:void clearEndOfSegment():520:520 -> clearEndOfSegment
+    1:1:void clearFlag():296:296 -> clearFlag
+    1:1:void clearLang():348:348 -> clearLang
+    1:1:void clearOfftime():400:400 -> clearOfftime
+    1:1:void clearSentenceEndIndex():806:806 -> clearSentenceEndIndex
+    1:1:void clearSeqnum():244:244 -> clearSeqnum
+    1:1:void clearStarttime():374:374 -> clearStarttime
+    1:1:void clearTextTs():780:780 -> clearTextTs
+    1:1:void clearTime():322:322 -> clearTime
+    1:1:void clearTrans():700:700 -> clearTrans
+    1:1:void clearUid():270:270 -> clearUid
+    1:1:void clearVendor():192:192 -> clearVendor
+    1:1:void clearVersion():218:218 -> clearVersion
+    1:1:void clearWords():487:487 -> clearWords
+    1:62:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1599:1660 -> dynamicMethod
+    63:63:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1654:1654 -> dynamicMethod
+    64:74:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1639:1649 -> dynamicMethod
+    75:75:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1636:1636 -> dynamicMethod
+    76:101:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1607:1632 -> dynamicMethod
+    102:102:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1604:1604 -> dynamicMethod
+    103:103:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):1601:1601 -> dynamicMethod
+    1:4:void ensureTransIsMutable():654:657 -> ensureTransIsMutable
+    1:4:void ensureWordsIsMutable():441:444 -> ensureWordsIsMutable
+    1:1:java.lang.String getCulture():718:718 -> getCulture
+    1:1:com.google.protobuf.ByteString getCultureBytes():727:727 -> getCultureBytes
+    1:1:java.lang.String getDataType():561:561 -> getDataType
+    1:1:com.google.protobuf.ByteString getDataTypeBytes():574:574 -> getDataTypeBytes
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text getDefaultInstance():1676:1676 -> getDefaultInstance
+    1:1:int getDurationMs():531:531 -> getDurationMs
+    1:1:boolean getEndOfSegment():505:505 -> getEndOfSegment
+    1:1:int getFlag():281:281 -> getFlag
+    1:1:int getLang():333:333 -> getLang
+    1:1:int getOfftime():385:385 -> getOfftime
+    1:1:int getSentenceEndIndex():791:791 -> getSentenceEndIndex
+    1:1:int getSeqnum():229:229 -> getSeqnum
+    1:1:int getStarttime():359:359 -> getStarttime
+    1:1:long getTextTs():765:765 -> getTextTs
+    1:1:long getTime():307:307 -> getTime
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation getTrans(int):644:644 -> getTrans
+    1:1:int getTransCount():637:637 -> getTransCount
+    1:1:java.util.List getTransList():623:623 -> getTransList
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$TranslationOrBuilder getTransOrBuilder(int):651:651 -> getTransOrBuilder
+    1:1:java.util.List getTransOrBuilderList():630:630 -> getTransOrBuilderList
+    1:1:long getUid():255:255 -> getUid
+    1:1:int getVendor():177:177 -> getVendor
+    1:1:int getVersion():203:203 -> getVersion
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word getWords(int):431:431 -> getWords
+    1:1:int getWordsCount():424:424 -> getWordsCount
+    1:1:java.util.List getWordsList():410:410 -> getWordsList
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$WordOrBuilder getWordsOrBuilder(int):438:438 -> getWordsOrBuilder
+    1:1:java.util.List getWordsOrBuilderList():417:417 -> getWordsOrBuilderList
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder newBuilder():886:886 -> newBuilder
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder newBuilder(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text):889:889 -> newBuilder
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseDelimitedFrom(java.io.InputStream):862:862 -> parseDelimitedFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):869:869 -> parseDelimitedFrom
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(java.nio.ByteBuffer):812:812 -> parseFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(java.nio.ByteBuffer,com.google.protobuf.ExtensionRegistryLite):819:819 -> parseFrom
+    3:3:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(com.google.protobuf.ByteString):825:825 -> parseFrom
+    4:4:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite):832:832 -> parseFrom
+    5:5:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(byte[]):837:837 -> parseFrom
+    6:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite):844:844 -> parseFrom
+    7:7:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(java.io.InputStream):849:849 -> parseFrom
+    8:8:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):856:856 -> parseFrom
+    9:9:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(com.google.protobuf.CodedInputStream):874:874 -> parseFrom
+    10:10:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite):881:881 -> parseFrom
+    1:1:com.google.protobuf.Parser parser():1682:1682 -> parser
+    1:2:void removeTrans(int):706:707 -> removeTrans
+    1:2:void removeWords(int):493:494 -> removeWords
+    1:3:void setCulture(java.lang.String):735:737 -> setCulture
+    1:2:void setCultureBytes(com.google.protobuf.ByteString):752:753 -> setCultureBytes
+    1:3:void setDataType(java.lang.String):586:588 -> setDataType
+    1:2:void setDataTypeBytes(com.google.protobuf.ByteString):611:612 -> setDataTypeBytes
+    1:1:void setDurationMs(int):539:539 -> setDurationMs
+    1:1:void setEndOfSegment(boolean):513:513 -> setEndOfSegment
+    1:1:void setFlag(int):289:289 -> setFlag
+    1:1:void setLang(int):341:341 -> setLang
+    1:1:void setOfftime(int):393:393 -> setOfftime
+    1:1:void setSentenceEndIndex(int):799:799 -> setSentenceEndIndex
+    1:1:void setSeqnum(int):237:237 -> setSeqnum
+    1:1:void setStarttime(int):367:367 -> setStarttime
+    1:1:void setTextTs(long):773:773 -> setTextTs
+    1:1:void setTime(long):315:315 -> setTime
+    1:3:void setTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):666:668 -> setTrans
+    1:1:void setUid(long):263:263 -> setUid
+    1:1:void setVendor(int):185:185 -> setVendor
+    1:1:void setVersion(int):211:211 -> setVersion
+    1:3:void setWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):453:455 -> setWords
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:1:void <init>(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$1):895:895 -> <init>
+    2:2:void <init>():902:902 -> <init>
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addAllTrans(java.lang.Iterable):1466:1467 -> addAllTrans
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addAllWords(java.lang.Iterable):1239:1240 -> addAllWords
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addTrans(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):1429:1430 -> addTrans
+    3:4:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):1438:1439 -> addTrans
+    5:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addTrans(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder):1447:1448 -> addTrans
+    7:9:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder):1456:1458 -> addTrans
+    10:10:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder):1457:1457 -> addTrans
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addWords(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1202:1203 -> addWords
+    3:4:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1211:1212 -> addWords
+    5:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addWords(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder):1220:1221 -> addWords
+    7:9:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder):1229:1231 -> addWords
+    10:10:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder addWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder):1230:1230 -> addWords
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearCulture():1520:1521 -> clearCulture
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearDataType():1365:1366 -> clearDataType
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearDurationMs():1311:1312 -> clearDurationMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearEndOfSegment():1283:1284 -> clearEndOfSegment
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearFlag():1041:1042 -> clearFlag
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearLang():1097:1098 -> clearLang
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearOfftime():1153:1154 -> clearOfftime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearSentenceEndIndex():1587:1588 -> clearSentenceEndIndex
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearSeqnum():985:986 -> clearSeqnum
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearStarttime():1125:1126 -> clearStarttime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearTextTs():1559:1560 -> clearTextTs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearTime():1069:1070 -> clearTime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearTrans():1474:1475 -> clearTrans
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearUid():1013:1014 -> clearUid
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearVendor():929:930 -> clearVendor
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearVersion():957:958 -> clearVersion
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder clearWords():1247:1248 -> clearWords
+    1:1:java.lang.String getCulture():1493:1493 -> getCulture
+    1:1:com.google.protobuf.ByteString getCultureBytes():1502:1502 -> getCultureBytes
+    1:1:java.lang.String getDataType():1326:1326 -> getDataType
+    1:1:com.google.protobuf.ByteString getDataTypeBytes():1339:1339 -> getDataTypeBytes
+    1:1:int getDurationMs():1294:1294 -> getDurationMs
+    1:1:boolean getEndOfSegment():1266:1266 -> getEndOfSegment
+    1:1:int getFlag():1024:1024 -> getFlag
+    1:1:int getLang():1080:1080 -> getLang
+    1:1:int getOfftime():1136:1136 -> getOfftime
+    1:1:int getSentenceEndIndex():1570:1570 -> getSentenceEndIndex
+    1:1:int getSeqnum():968:968 -> getSeqnum
+    1:1:int getStarttime():1108:1108 -> getStarttime
+    1:1:long getTextTs():1542:1542 -> getTextTs
+    1:1:long getTime():1052:1052 -> getTime
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation getTrans(int):1404:1404 -> getTrans
+    1:1:int getTransCount():1398:1398 -> getTransCount
+    1:2:java.util.List getTransList():1390:1391 -> getTransList
+    3:3:java.util.List getTransList():1390:1390 -> getTransList
+    1:1:long getUid():996:996 -> getUid
+    1:1:int getVendor():912:912 -> getVendor
+    1:1:int getVersion():940:940 -> getVersion
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word getWords(int):1177:1177 -> getWords
+    1:1:int getWordsCount():1171:1171 -> getWordsCount
+    1:2:java.util.List getWordsList():1163:1164 -> getWordsList
+    3:3:java.util.List getWordsList():1163:1163 -> getWordsList
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder removeTrans(int):1482:1483 -> removeTrans
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder removeWords(int):1255:1256 -> removeWords
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setCulture(java.lang.String):1511:1512 -> setCulture
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setCultureBytes(com.google.protobuf.ByteString):1531:1532 -> setCultureBytes
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setDataType(java.lang.String):1352:1353 -> setDataType
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setDataTypeBytes(com.google.protobuf.ByteString):1380:1381 -> setDataTypeBytes
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setDurationMs(int):1302:1303 -> setDurationMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setEndOfSegment(boolean):1274:1275 -> setEndOfSegment
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setFlag(int):1032:1033 -> setFlag
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setLang(int):1088:1089 -> setLang
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setOfftime(int):1144:1145 -> setOfftime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setSentenceEndIndex(int):1578:1579 -> setSentenceEndIndex
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setSeqnum(int):976:977 -> setSeqnum
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setStarttime(int):1116:1117 -> setStarttime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setTextTs(long):1550:1551 -> setTextTs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setTime(long):1060:1061 -> setTime
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):1411:1412 -> setTrans
+    3:5:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder):1420:1422 -> setTrans
+    6:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setTrans(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder):1421:1421 -> setTrans
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setUid(long):1004:1005 -> setUid
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setVendor(int):920:921 -> setVendor
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setVersion(int):948:949 -> setVersion
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1184:1185 -> setWords
+    3:5:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder):1193:1195 -> setWords
+    6:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Text$Builder setWords(int,io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder):1194:1194 -> setWords
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$TextOrBuilder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$TextOrBuilder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:5:void <clinit>():2822:2826 -> <clinit>
+    1:3:void <init>():2288:2290 -> <init>
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation access$5900():2283:2283 -> access$5900
+    1:1:void access$6000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,boolean):2283:2283 -> access$6000
+    1:1:void access$6100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):2283:2283 -> access$6100
+    1:1:void access$6200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,java.lang.String):2283:2283 -> access$6200
+    1:1:void access$6300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):2283:2283 -> access$6300
+    1:1:void access$6400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,com.google.protobuf.ByteString):2283:2283 -> access$6400
+    1:1:void access$6500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,int,java.lang.String):2283:2283 -> access$6500
+    1:1:void access$6600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,java.lang.String):2283:2283 -> access$6600
+    1:1:void access$6700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,java.lang.Iterable):2283:2283 -> access$6700
+    1:1:void access$6800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):2283:2283 -> access$6800
+    1:1:void access$6900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation,com.google.protobuf.ByteString):2283:2283 -> access$6900
+    1:2:void addAllTexts(java.lang.Iterable):2457:2458 -> addAllTexts
+    1:3:void addTexts(java.lang.String):2447:2449 -> addTexts
+    1:3:void addTextsBytes(com.google.protobuf.ByteString):2473:2475 -> addTextsBytes
+    1:1:void clearIsFinal():2315:2315 -> clearIsFinal
+    1:1:void clearLang():2368:2368 -> clearLang
+    1:1:void clearTexts():2465:2465 -> clearTexts
+    1:45:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2771:2815 -> dynamicMethod
+    46:46:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2809:2809 -> dynamicMethod
+    47:57:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2794:2804 -> dynamicMethod
+    58:58:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2791:2791 -> dynamicMethod
+    59:67:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2779:2787 -> dynamicMethod
+    68:68:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2776:2776 -> dynamicMethod
+    69:69:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2773:2773 -> dynamicMethod
+    1:4:void ensureTextsIsMutable():2424:2427 -> ensureTextsIsMutable
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation getDefaultInstance():2831:2831 -> getDefaultInstance
+    1:1:boolean getIsFinal():2300:2300 -> getIsFinal
+    1:1:java.lang.String getLang():2330:2330 -> getLang
+    1:1:com.google.protobuf.ByteString getLangBytes():2343:2343 -> getLangBytes
+    1:1:java.lang.String getTexts(int):2410:2410 -> getTexts
+    1:2:com.google.protobuf.ByteString getTextsBytes(int):2420:2421 -> getTextsBytes
+    3:3:com.google.protobuf.ByteString getTextsBytes(int):2420:2420 -> getTextsBytes
+    1:1:int getTextsCount():2401:2401 -> getTextsCount
+    1:1:java.util.List getTextsList():2393:2393 -> getTextsList
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder newBuilder():2555:2555 -> newBuilder
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder newBuilder(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation):2558:2558 -> newBuilder
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseDelimitedFrom(java.io.InputStream):2531:2531 -> parseDelimitedFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):2538:2538 -> parseDelimitedFrom
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(java.nio.ByteBuffer):2481:2481 -> parseFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(java.nio.ByteBuffer,com.google.protobuf.ExtensionRegistryLite):2488:2488 -> parseFrom
+    3:3:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(com.google.protobuf.ByteString):2494:2494 -> parseFrom
+    4:4:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite):2501:2501 -> parseFrom
+    5:5:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(byte[]):2506:2506 -> parseFrom
+    6:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite):2513:2513 -> parseFrom
+    7:7:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(java.io.InputStream):2518:2518 -> parseFrom
+    8:8:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):2525:2525 -> parseFrom
+    9:9:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(com.google.protobuf.CodedInputStream):2543:2543 -> parseFrom
+    10:10:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite):2550:2550 -> parseFrom
+    1:1:com.google.protobuf.Parser parser():2837:2837 -> parser
+    1:1:void setIsFinal(boolean):2308:2308 -> setIsFinal
+    1:3:void setLang(java.lang.String):2355:2357 -> setLang
+    1:2:void setLangBytes(com.google.protobuf.ByteString):2380:2381 -> setLangBytes
+    1:3:void setTexts(int,java.lang.String):2437:2439 -> setTexts
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:1:void <init>(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$1):2564:2564 -> <init>
+    2:2:void <init>():2571:2571 -> <init>
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder addAllTexts(java.lang.Iterable):2739:2740 -> addAllTexts
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder addTexts(java.lang.String):2728:2729 -> addTexts
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder addTextsBytes(com.google.protobuf.ByteString):2759:2760 -> addTextsBytes
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder clearIsFinal():2598:2599 -> clearIsFinal
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder clearLang():2652:2653 -> clearLang
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder clearTexts():2748:2749 -> clearTexts
+    1:1:boolean getIsFinal():2581:2581 -> getIsFinal
+    1:1:java.lang.String getLang():2613:2613 -> getLang
+    1:1:com.google.protobuf.ByteString getLangBytes():2626:2626 -> getLangBytes
+    1:1:java.lang.String getTexts(int):2697:2697 -> getTexts
+    1:1:com.google.protobuf.ByteString getTextsBytes(int):2707:2707 -> getTextsBytes
+    1:1:int getTextsCount():2688:2688 -> getTextsCount
+    1:2:java.util.List getTextsList():2679:2680 -> getTextsList
+    3:3:java.util.List getTextsList():2679:2679 -> getTextsList
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder setIsFinal(boolean):2589:2590 -> setIsFinal
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder setLang(java.lang.String):2639:2640 -> setLang
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder setLangBytes(com.google.protobuf.ByteString):2667:2668 -> setLangBytes
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Translation$Builder setTexts(int,java.lang.String):2717:2718 -> setTexts
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$TranslationOrBuilder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$TranslationOrBuilder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:5:void <clinit>():2206:2210 -> <clinit>
+    1:2:void <init>():1734:1735 -> <init>
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word access$4600():1729:1729 -> access$4600
+    1:1:void access$4700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,java.lang.String):1729:1729 -> access$4700
+    1:1:void access$4800(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1729:1729 -> access$4800
+    1:1:void access$4900(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,com.google.protobuf.ByteString):1729:1729 -> access$4900
+    1:1:void access$5000(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,int):1729:1729 -> access$5000
+    1:1:void access$5100(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1729:1729 -> access$5100
+    1:1:void access$5200(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,int):1729:1729 -> access$5200
+    1:1:void access$5300(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1729:1729 -> access$5300
+    1:1:void access$5400(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,boolean):1729:1729 -> access$5400
+    1:1:void access$5500(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1729:1729 -> access$5500
+    1:1:void access$5600(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word,double):1729:1729 -> access$5600
+    1:1:void access$5700(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1729:1729 -> access$5700
+    1:1:void clearConfidence():1885:1885 -> clearConfidence
+    1:1:void clearDurationMs():1833:1833 -> clearDurationMs
+    1:1:void clearIsFinal():1859:1859 -> clearIsFinal
+    1:1:void clearStartMs():1807:1807 -> clearStartMs
+    1:1:void clearText():1771:1771 -> clearText
+    1:47:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2153:2199 -> dynamicMethod
+    48:48:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2193:2193 -> dynamicMethod
+    49:59:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2178:2188 -> dynamicMethod
+    60:60:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2175:2175 -> dynamicMethod
+    61:71:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2161:2171 -> dynamicMethod
+    72:72:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2158:2158 -> dynamicMethod
+    73:73:java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object):2155:2155 -> dynamicMethod
+    1:1:double getConfidence():1870:1870 -> getConfidence
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word getDefaultInstance():2215:2215 -> getDefaultInstance
+    1:1:int getDurationMs():1818:1818 -> getDurationMs
+    1:1:boolean getIsFinal():1844:1844 -> getIsFinal
+    1:1:int getStartMs():1792:1792 -> getStartMs
+    1:1:java.lang.String getText():1745:1745 -> getText
+    1:1:com.google.protobuf.ByteString getTextBytes():1754:1754 -> getTextBytes
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder newBuilder():1965:1965 -> newBuilder
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder newBuilder(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word):1968:1968 -> newBuilder
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseDelimitedFrom(java.io.InputStream):1941:1941 -> parseDelimitedFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):1948:1948 -> parseDelimitedFrom
+    1:1:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(java.nio.ByteBuffer):1891:1891 -> parseFrom
+    2:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(java.nio.ByteBuffer,com.google.protobuf.ExtensionRegistryLite):1898:1898 -> parseFrom
+    3:3:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(com.google.protobuf.ByteString):1904:1904 -> parseFrom
+    4:4:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite):1911:1911 -> parseFrom
+    5:5:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(byte[]):1916:1916 -> parseFrom
+    6:6:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite):1923:1923 -> parseFrom
+    7:7:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(java.io.InputStream):1928:1928 -> parseFrom
+    8:8:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite):1935:1935 -> parseFrom
+    9:9:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(com.google.protobuf.CodedInputStream):1953:1953 -> parseFrom
+    10:10:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite):1960:1960 -> parseFrom
+    1:1:com.google.protobuf.Parser parser():2221:2221 -> parser
+    1:1:void setConfidence(double):1878:1878 -> setConfidence
+    1:1:void setDurationMs(int):1826:1826 -> setDurationMs
+    1:1:void setIsFinal(boolean):1852:1852 -> setIsFinal
+    1:1:void setStartMs(int):1800:1800 -> setStartMs
+    1:3:void setText(java.lang.String):1762:1764 -> setText
+    1:2:void setTextBytes(com.google.protobuf.ByteString):1779:1780 -> setTextBytes
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+    1:1:void <init>(io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$1):1974:1974 -> <init>
+    2:2:void <init>():1981:1981 -> <init>
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder clearConfidence():2141:2142 -> clearConfidence
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder clearDurationMs():2085:2086 -> clearDurationMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder clearIsFinal():2113:2114 -> clearIsFinal
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder clearStartMs():2057:2058 -> clearStartMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder clearText():2018:2019 -> clearText
+    1:1:double getConfidence():2124:2124 -> getConfidence
+    1:1:int getDurationMs():2068:2068 -> getDurationMs
+    1:1:boolean getIsFinal():2096:2096 -> getIsFinal
+    1:1:int getStartMs():2040:2040 -> getStartMs
+    1:1:java.lang.String getText():1991:1991 -> getText
+    1:1:com.google.protobuf.ByteString getTextBytes():2000:2000 -> getTextBytes
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setConfidence(double):2132:2133 -> setConfidence
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setDurationMs(int):2076:2077 -> setDurationMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setIsFinal(boolean):2104:2105 -> setIsFinal
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setStartMs(int):2048:2049 -> setStartMs
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setText(java.lang.String):2009:2010 -> setText
+    1:2:io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$Word$Builder setTextBytes(com.google.protobuf.ByteString):2029:2030 -> setTextBytes
+io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$WordOrBuilder -> io.agora.transcription_widget.speech2text.AgoraSpeech2TextProtoBuffer$WordOrBuilder:
+# {"id":"sourceFile","fileName":"AgoraSpeech2TextProtoBuffer.java"}
+io.agora.transcription_widget.utils.Base64Utils -> io.agora.transcription_widget.utils.Base64Utils:
+# {"id":"sourceFile","fileName":"Base64Utils.kt"}
+    1:51:void <clinit>():12:62 -> <clinit>
+    1:1:void <init>():3:3 -> <init>
+    1:26:byte[] decode(java.lang.String):157:182 -> decode
+    27:45:byte[] decode(java.lang.String):181:199 -> decode
+    46:85:byte[] decode(java.lang.String):198:237 -> decode
+    86:103:byte[] decode(java.lang.String):209:226 -> decode
+    1:56:java.lang.String encode(byte[]):86:141 -> encode
+    57:79:java.lang.String encode(byte[]):121:143 -> encode
+    1:1:boolean isData(char):74:74 -> isData
+    1:4:int removeWhiteSpace(char[]):253:256 -> removeWhiteSpace
+io.agora.transcription_widget.utils.EncryptUtils -> io.agora.transcription_widget.utils.EncryptUtils:
+# {"id":"sourceFile","fileName":"EncryptUtils.kt"}
+    1:1:void <clinit>():33:33 -> <clinit>
+    1:1:void <init>():27:27 -> <init>
+    1:14:java.lang.String HmacSHA1Encrypt(java.lang.String,java.lang.String):47:60 -> HmacSHA1Encrypt
+    15:15:java.lang.String HmacSHA1Encrypt(java.lang.String,java.lang.String):58:58 -> HmacSHA1Encrypt
+    16:16:java.lang.String HmacSHA1Encrypt(java.lang.String,java.lang.String):56:56 -> HmacSHA1Encrypt
+    17:17:java.lang.String HmacSHA1Encrypt(java.lang.String,java.lang.String):54:54 -> HmacSHA1Encrypt
+    1:33:java.lang.String MD5(java.lang.String):66:98 -> MD5
+    1:21:java.lang.String decryptByAes(java.lang.String):216:236 -> decryptByAes
+    1:11:java.lang.String decryptByAesWithKey(java.lang.String,java.lang.String):260:270 -> decryptByAesWithKey
+    12:12:java.lang.String decryptByAesWithKey(java.lang.String,java.lang.String):261:261 -> decryptByAesWithKey
+    1:24:java.lang.String encryptByAes(java.lang.String):186:209 -> encryptByAes
+    1:11:java.lang.String encryptByAesWithKey(java.lang.String,java.lang.String):243:253 -> encryptByAesWithKey
+    12:12:java.lang.String encryptByAesWithKey(java.lang.String,java.lang.String):244:244 -> encryptByAesWithKey
+    1:14:java.lang.String encryptByHA256(java.lang.String,int):125:138 -> encryptByHA256
+    1:13:java.lang.String encryptBySHA256(java.lang.String):105:117 -> encryptBySHA256
+    1:8:javax.crypto.SecretKey getSecretKey():146:153 -> getSecretKey
+    9:14:javax.crypto.SecretKey getSecretKey():152:157 -> getSecretKey
+    15:21:javax.crypto.SecretKey getSecretKey():156:162 -> getSecretKey
+    22:46:javax.crypto.SecretKey getSecretKey():155:179 -> getSecretKey
+io.agora.transcription_widget.utils.Utils -> io.agora.transcription_widget.utils.Utils:
+# {"id":"sourceFile","fileName":"Utils.kt"}
+    1:1:void <init>():27:27 -> <init>
+    1:8:byte[] adjustPcmDataVolume(byte[],int):337:344 -> adjustPcmDataVolume
+    1:15:void clearDirectory(java.lang.String):160:174 -> clearDirectory
+    1:22:void copyFileFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String):128:149 -> copyFileFromAssets
+    23:23:void copyFileFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String):142:142 -> copyFileFromAssets
+    24:25:void copyFileFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String):141:142 -> copyFileFromAssets
+    26:38:void copyFileFromAssets(android.content.Context,java.lang.String,java.lang.String,java.lang.String):141:153 -> copyFileFromAssets
+    1:16:void copyFilesFromAssets(android.content.Context,java.lang.String,java.lang.String):93:108 -> copyFilesFromAssets
+    1:8:java.nio.ByteBuffer copyNewByteBuffer(java.nio.ByteBuffer):353:360 -> copyNewByteBuffer
+    1:6:void deleteFile(java.lang.String):204:209 -> deleteFile
+    1:19:void deleteFolder(java.lang.String):180:198 -> deleteFolder
+    1:1:int dpToPx(int,android.content.Context):365:365 -> dpToPx
+    1:2:java.lang.String getCurrentDateStr(java.lang.String):328:329 -> getCurrentDateStr
+    1:1:int getCurrentTimestampSeconds():323:323 -> getCurrentTimestampSeconds
+    1:7:java.lang.String getFromAssets(android.content.Context,java.lang.String):57:63 -> getFromAssets
+    8:14:java.lang.String getFromAssets(android.content.Context,java.lang.String):63:69 -> getFromAssets
+    15:25:java.lang.String getFromAssets(android.content.Context,java.lang.String):69:79 -> getFromAssets
+    26:26:java.lang.String getFromAssets(android.content.Context,java.lang.String):58:58 -> getFromAssets
+    1:17:java.lang.String getIpAddress():301:317 -> getIpAddress
+    1:8:java.lang.String getRandomString(int):40:47 -> getRandomString
+    1:1:java.lang.String getUuid():52:52 -> getUuid
+    1:30:long hash64(java.lang.String):255:284 -> hash64
+    1:2:void hideSoftInput(android.view.View):34:35 -> hideSoftInput
+    1:15:java.lang.String readFileToString(java.lang.String):215:229 -> readFileToString
+    16:17:java.lang.String readFileToString(java.lang.String):224:224 -> readFileToString
+    24:26:java.lang.String readFileToString(java.lang.String):231:233 -> readFileToString
+    1:6:void saveTextToFile(java.lang.String,java.lang.String,boolean):239:244 -> saveTextToFile
+    7:12:void saveTextToFile(java.lang.String,java.lang.String,boolean):244:249 -> saveTextToFile
+    1:6:void setRoundedBackground(android.view.View,int,float):369:374 -> setRoundedBackground

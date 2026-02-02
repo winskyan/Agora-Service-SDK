@@ -1,0 +1,4 @@
+Version: 2.2.0.133.12
+Build Date: 2025-12-15 14:19:00
+Git Commit: e65ebb7ee507536929e59460cf969e7c15be596f
+Git Branch: main

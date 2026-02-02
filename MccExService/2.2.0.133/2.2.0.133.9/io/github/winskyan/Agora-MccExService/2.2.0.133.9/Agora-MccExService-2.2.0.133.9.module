@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.winskyan",
+    "module": "Agora-MccExService",
+    "version": "2.2.0.133.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Agora-MccExService-2.2.0.133.9.aar",
+          "url": "Agora-MccExService-2.2.0.133.9.aar",
+          "size": 963400,
+          "sha512": "586dd26b2ecb66f5075d1b4f5ac7bb31545ea7f8d949230a8822b9c67de761f7d5d9d6ea048caccad680f0859f1136d76fc8853b921afe37f2f3e5b7b5ce0efd",
+          "sha256": "29dfda60e1b2b271db8ec732d57a1d4a884f4616bc630439c3abf111a40a6f63",
+          "sha1": "7eae9b0a71e1a4f61af434e0012e36ec6e0b3dbd",
+          "md5": "1227803c46a13c8a16a0a3b360559301"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "io.github.winskyan",
+          "module": "Agora-LoggingService",
+          "version": {
+            "requires": "1.0.10"
+          }
+        },
+        {
+          "group": "io.agora.rtc",
+          "module": "agora-special-full",
+          "version": {
+            "requires": "4.1.1.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Agora-MccExService-2.2.0.133.9.aar",
+          "url": "Agora-MccExService-2.2.0.133.9.aar",
+          "size": 963400,
+          "sha512": "586dd26b2ecb66f5075d1b4f5ac7bb31545ea7f8d949230a8822b9c67de761f7d5d9d6ea048caccad680f0859f1136d76fc8853b921afe37f2f3e5b7b5ce0efd",
+          "sha256": "29dfda60e1b2b271db8ec732d57a1d4a884f4616bc630439c3abf111a40a6f63",
+          "sha1": "7eae9b0a71e1a4f61af434e0012e36ec6e0b3dbd",
+          "md5": "1227803c46a13c8a16a0a3b360559301"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Agora-MccExService-2.2.0.133.9-javadoc.jar",
+          "url": "Agora-MccExService-2.2.0.133.9-javadoc.jar",
+          "size": 600120,
+          "sha512": "f93fc618073a3a98823fd84274fd7ec999d06917e4eb87c71b9c8c943f7d9d537dcb284a9e6d00b181de7f389432693c6b3a1562aff2bb15fcd8fcce5b79b3fd",
+          "sha256": "03b974c89b676b98582a22192ffa8e3d9c73f407b887f08d66ea33b8f5d5a759",
+          "sha1": "9ddf8233215d8aa775a13fd5c90ea67e0fd195cb",
+          "md5": "bdb6e0c0be83a8da842b94e35cdd3189"
+        }
+      ]
+    }
+  ]
+}

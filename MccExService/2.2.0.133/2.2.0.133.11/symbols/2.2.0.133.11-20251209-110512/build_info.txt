@@ -1,0 +1,12 @@
+Architecture: armeabi-v7a
+File Size: 2.2 MB
+Build ID: 8d2b882d8d20594621e5e4f817a252b84b6365e7
+File Path: /Users/yanzhennan/Desktop/workspace/Android/Agora-MccExService/published/symbols/2.2.0.133.11-20251209-110512/armeabi-v7a/libagora-mccex-service-sdk.so
+File Info: /Users/yanzhennan/Desktop/workspace/Android/Agora-MccExService/published/symbols/2.2.0.133.11-20251209-110512/armeabi-v7a/libagora-mccex-service-sdk.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=8d2b882d8d20594621e5e4f817a252b84b6365e7, with debug_info, not stripped
+---
+Architecture: arm64-v8a
+File Size: 2.7 MB
+Build ID: a6103ed26c058f1e171b17ae3d397d3823f4a1ca
+File Path: /Users/yanzhennan/Desktop/workspace/Android/Agora-MccExService/published/symbols/2.2.0.133.11-20251209-110512/arm64-v8a/libagora-mccex-service-sdk.so
+File Info: /Users/yanzhennan/Desktop/workspace/Android/Agora-MccExService/published/symbols/2.2.0.133.11-20251209-110512/arm64-v8a/libagora-mccex-service-sdk.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=a6103ed26c058f1e171b17ae3d397d3823f4a1ca, with debug_info, not stripped
+---
